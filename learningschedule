@@ -1,0 +1,11 @@
+QUESTIONS = [
+    ("Should you procrastinate and do a project the night before, or get it done in advance", "get in done in advance"),
+    ("How many hours of sleep do young adults need", "8 hours"),
+    ("Does paying attention in class help you learn material", "yes"),
+]
+for question, correct_answer in QUESTIONS:
+    answer = input(f"{question}?")
+    if answer == correct_answer:
+        print("Correct!")
+    else:
+        print(f"Incorrect! The answer is {correct_answer}")
